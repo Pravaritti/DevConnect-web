@@ -67,7 +67,7 @@ const Requests = () => {
             </div>
             <div>
               <button
-                className="btn btn-primary mx-2"
+                className="btn btn-primary mx-2 my-4"
                 onClick={() => reviewRequest("rejected", request._id)}
               >
                 Reject
